@@ -4,4 +4,7 @@ We need to initialize the repository for the git starts to save the history of t
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area keep the changes who will enter in the next commit. Working directory show all the files of that repository.
-With staging area, we can control who enters in the commit and who's not.
+With staging area, we can control who entes in the commit and who's not.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Just need to use git diff --staged to see which changes i have make since the last commit
